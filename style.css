@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 174, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn button{
+    background-color: yellow;
+    width: 130px;
+    height: 40px;
+    border: none;
+    /* box-shadow: 5px,5px rgb(56, 56, 56); */
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.btn{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.buttons button{
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+.buttons ul li{
+    display: inline-flex;
+    margin: 10px;
+    
+}
+.buttons{
+    text-align: center;
+    padding: 10px;
+}
+.display{
+    width: 600px;
+    background-image: url("imgs/opacity/bg.jpg");
+    background-size: contain;
+    
+    height: 300px;
+}
+.display h2{
+    text-align: center;
+    padding-top: 20%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0)
+}
+.playagain{
+    text-align: center;
+    display: none;
+    position: relative;
+    top: 20%;
+    /* padding-left: 40%; */
+    justify-content: center;
+    /* background-color: aqua */
+}
+.playagain button{
+    background-color: orange;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+footer{
+text-align: center;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+ width: 100%;
+color: white;
+}
+.share{
+    float: right;
+    /* background-color: aqua; */
+    padding-left: 10px;
+    position: relative;
+    right: 10px;
+    top: 5px;
+    cursor: pointer;
+    
+}
+.share button{
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 30px;
+    height: 20px;
+    background: yellow;
+    cursor: pointer;
+    
+}
+
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    }
+    .btn:focus{
+        border: none;
+        outline: none;
+    }
+@media screen and (max-width:604px ) {
+    .display{
+        width: 400px;
+        background-image: url(imgs/opacity/bgr.png);
+    }
+    .display h2{
+        padding-top: 30%;
+    }
+    .buttons button{
+        border: none;
+        cursor: pointer;
+        width: 70px;
+        padding: 5px;
+        background-color: yellow;
+    }
+    
+}
+@media only screen and (max-width:411px) {
+.display{
+    width: 300px;
+    background-image: url(imgs/opacity/bg3.png);
+    
+}
+.display h2{
+    padding-top: 40%;
+}
+}
